@@ -98,7 +98,22 @@ class TicTacToe
   end 
   
   def won?
-    
+     WIN_COMBINATIONS.each {|winning|
+    index_0 = winning[0]
+    index_1 = winning[1]
+    index_2 = winning[2]
+
+    pos1 = @board[index_0]
+    pos2 = @board[index_1]
+    pos3 = @board[index_2]
+
+    if pos1 == "X" && pos2 == "X" && pos3 == "X"
+      return win_combo
+    elsif pos1 == "O" && pos2 == "O" && pos3 == "O"
+      return win_combo
+    end
+  }
+  return false
     
     
   end 
