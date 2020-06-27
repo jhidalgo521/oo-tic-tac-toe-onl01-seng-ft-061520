@@ -31,7 +31,7 @@ class TicTacToe
     
   end 
   
-  def input_to_index(user_input)
+  def input_to_index(input)
   end 
   
 end 
