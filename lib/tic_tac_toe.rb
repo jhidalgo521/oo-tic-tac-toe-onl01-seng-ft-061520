@@ -38,6 +38,6 @@ class TicTacToe
   end 
   
   
-  def move
+  def move(i,y)
   end  
 end 
