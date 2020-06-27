@@ -133,7 +133,8 @@ class TicTacToe
     return false
   end 
   
-  def
+  def over?
+  end 
   
   
   
