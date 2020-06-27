@@ -39,5 +39,6 @@ class TicTacToe
   
   
   def move(i,y)
+    @board[i] = y 
   end  
 end 
