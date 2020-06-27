@@ -1,3 +1,6 @@
+
+
+
 class TicTacToe
   
   WIN_COMBINATIONS = [
@@ -159,7 +162,7 @@ class TicTacToe
   
   end 
   
-  binding.pry
+
   
   def play
     
